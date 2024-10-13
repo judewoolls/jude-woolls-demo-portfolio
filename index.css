@@ -1,0 +1,193 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Courier New', Courier, monospace;
+    min-height: 260vh;
+}
+
+header {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+header p {
+    background-color: grey;
+    padding: 10px;
+    margin-top: -22px;
+    margin-left: 0px;
+}
+
+header img {
+    margin: 0;
+    margin-top: 100px;
+    width: 100%;
+    max-height: 150px;
+}
+
+#titles {
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+h1 {
+    text-align: center;
+    text-decoration:solid;
+    color: white;
+    background-color: rgb(0, 0, 31);
+    margin-top: -10px;
+    padding: 20px;
+    padding-bottom: 15px;
+    font-weight: lighter;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+nav {
+    margin-top: 0px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+nav a {
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px white solid;
+    padding-right: 10px;
+    border-right: 1px black solid;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    border-bottom: 2px black solid;
+    border-right: 2px black solid;
+    border-radius: 3px;
+    box-shadow: 10px 5px 5px gray;
+}
+
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+article {
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 10px;
+}
+
+#fiverr-link {
+    text-decoration: underline;
+    font-weight: bold;
+    color: darkblue;
+}
+
+#coding-image {
+    max-width: 300px;
+    height: 300px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    background-color: navy;
+    padding: 20px;
+    border: 3px navy solid;
+    border-radius: 50px;
+    margin-top: 60px;
+    position: relative;
+    bottom: 5px;
+}
+
+button a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+button:hover {
+    transition: all 0.4s;
+    background-color: green;
+    border-color: green;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+
+footer a{
+    color: white;
+    text-decoration: none;
+    margin-right: 60px;
+    margin-left: 10px;
+    border: 2px black solid;
+}
+
+footer a:hover {
+    color:white;
+    border-bottom: 2px white solid;
+    border-right: 2px white dotted;
+}
+
+.logos {
+    max-height: 18px;
+    zoom: 220%;
+    border-radius: 4px;
+}
+
+#fb-logo {
+    zoom: 250%;
+}
+
+@media only screen and (min-width: 600px){
+    body {
+        min-height: 245vh;
+    }
+    header img {
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    body {
+        min-height: 245vh;
+    }
+    header img {
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    body {
+        min-height: 230vh;
+    }
+    header img {
+        margin-top: 40px;
+    }
+    button {
+        bottom: -80px;
+        margin-bottom: 10px;
+        padding: 50px;
+        border-radius: 1000px;
+    }
+    button a {
+        font-size: large;
+    }
+}
