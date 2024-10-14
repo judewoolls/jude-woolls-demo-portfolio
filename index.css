@@ -158,6 +158,17 @@ footer a:hover {
 }
 
     
+
+@media only screen and (max-width: 380px){
+    body {
+        min-height: 150rem;
+    }
+    header img {
+        margin-top: 80px;
+    }
+    
+    
+}
     
 
 @media only screen and (max-width: 500px){
@@ -182,9 +193,10 @@ footer a:hover {
     
 }
 
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 900px){
     body {
-        min-height: 110rem;
+        min-height: 120rem;
+        font-size: larger;
     }
     header img {
         margin-top: 60px;
@@ -204,13 +216,13 @@ footer a:hover {
 
 @media only screen and (min-width: 1200px){
     body {
-        min-height: 230vh;
+        min-height: 235vh;
     }
     header img {
         margin-top: 40px;
     }
     button {
-        bottom: -80px;
+        bottom: -40px;
         margin-bottom: 10px;
         padding: 50px;
         border-radius: 1000px;
