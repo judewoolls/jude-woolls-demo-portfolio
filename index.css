@@ -236,11 +236,13 @@ footer a:hover {
     }
     #sub-title {
         margin-top: -40px;
+        color: aqua;
     }
 }
 
 @media only screen and (min-width:2000px) {
     #subtitle {
+        color: red;
         margin-top: -60px;
     }
 }
