@@ -2,7 +2,8 @@ body {
     margin: 0px;
     padding: 0px;
     font-family:'Courier New', Courier, monospace;
-    min-height: 290vh;
+    /* min-height: 290vh;  */
+    min-height: 120rem;
 }
 
 header {
@@ -156,9 +157,12 @@ footer a:hover {
     zoom: 250%;
 }
 
-@media only screen and (max-width: 400px){
+    
+    
+
+@media only screen and (max-width: 500px){
     body {
-        min-height: 400vh;
+        min-height: 130rem;
     }
     header img {
         margin-top: 80px;
@@ -167,9 +171,9 @@ footer a:hover {
     
 }
 
-@media only screen and (min-width: 400px){
+@media only screen and (min-width: 700px){
     body {
-        min-height: 260vh;
+        min-height: 110rem;
     }
     header img {
         margin-top: 80px;
@@ -178,31 +182,9 @@ footer a:hover {
     
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (min-width: 1000px){
     body {
-        min-height: 230vh;
-    }
-    header img {
-        margin-top: 80px;
-    }
-    
-    
-}
-
-@media only screen and (min-width: 600px){
-    body {
-        min-height: 245vh;
-    }
-    header img {
-        margin-top: 80px;
-    }
-    
-    
-}
-
-@media only screen and (min-width: 900px){
-    body {
-        min-height: 245vh;
+        min-height: 110rem;
     }
     header img {
         margin-top: 60px;
@@ -210,6 +192,14 @@ footer a:hover {
     footer {
         justify-content: space-evenly;
         }
+    button {
+        bottom: -40px;
+        padding: 50px;
+        border-radius: 1000px;
+    }
+    button a {
+        font-size: large;
+    }
 }
 
 @media only screen and (min-width: 1200px){
